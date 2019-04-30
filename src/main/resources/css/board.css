@@ -1,0 +1,11 @@
+.background {
+    -fx-background-image: url("../images/ttt_board.png");
+}
+
+.region-background-yellow {
+    /*-fx-background-color: yellow;*/
+}
+
+.region-background-red {
+    /*-fx-background-color: red;*/
+}

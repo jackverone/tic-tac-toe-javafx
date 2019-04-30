@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<AnchorPane id="root" fx:id="root" styleClass="background" xmlns:fx="http://javafx.com/fxml/1"
+            xmlns="http://javafx.com/javafx/8.0.191" fx:controller="sample.Controller">
+    <children>
+        <VBox id="boardId" fx:id="boardId" prefWidth="480" prefHeight="480" onMouseClicked="#boardOnMouseClicked">
+            <HBox id="firstRowId" fx:id="firstRowId">
+                <VBox id="regionOneId" fx:id="regionOneId" styleClass="region-background-yellow"
+                      onMouseClicked="#regionOneOnMouseClicked" prefWidth="160" prefHeight="160">
+                    <ImageView id="regionOneImageViewId" fx:id="regionOneImageViewId"/>
+                </VBox>
+                <VBox id="regionTwoId" fx:id="regionTwoId" styleClass="region-background-red"
+                      onMouseClicked="#regionTwoOnMouseClicked" prefWidth="160" prefHeight="160">
+                    <ImageView id="regionTwoImageViewId" fx:id="regionTwoImageViewId"/>
+                </VBox>
+                <VBox id="regionThreeId" fx:id="regionThreeId" styleClass="region-background-yellow"
+                      onMouseClicked="#regionThreeOnMouseClicked" prefWidth="160" prefHeight="160">
+                    <ImageView id="regionThreeImageViewId" fx:id="regionThreeImageViewId"/>
+                </VBox>
+            </HBox>
+            <HBox id="secondRowId" fx:id="secondRowId">
+                <VBox id="regionFourId" fx:id="regionFourId" styleClass="region-background-red"
+                      onMouseClicked="#regionFourOnMouseClicked" prefWidth="160" prefHeight="160">
+                    <ImageView id="regionFourImageViewId" fx:id="regionFourImageViewId"/>
+                </VBox>
+                <VBox id="regionFiveId" fx:id="regionFiveId" styleClass="region-background-yellow"
+                      onMouseClicked="#regionFiveOnMouseClicked" prefWidth="160" prefHeight="160">
+                    <ImageView id="regionFiveImageViewId" fx:id="regionFiveImageViewId"/>
+                </VBox>
+                <VBox id="regionSixId" fx:id="regionSixId" styleClass="region-background-red"
+                      onMouseClicked="#regionSixOnMouseClicked" prefWidth="160" prefHeight="160">
+                    <ImageView id="regionSixImageViewId" fx:id="regionSixImageViewId"/>
+                </VBox>
+            </HBox>
+            <HBox id="thirdRowId" fx:id="thirdRowId">
+                <VBox id="regionFourId" fx:id="regionSevenId" styleClass="region-background-yellow"
+                      onMouseClicked="#regionSevenOnMouseClicked" prefWidth="160" prefHeight="160">
+                    <ImageView id="regionSevenImageViewId" fx:id="regionSevenImageViewId"/>
+                </VBox>
+                <VBox id="regionFiveId" fx:id="regionEightId" styleClass="region-background-red"
+                      onMouseClicked="#regionEightOnMouseClicked" prefWidth="160" prefHeight="160">
+                    <ImageView id="regionEightImageViewId" fx:id="regionEightImageViewId"/>
+                </VBox>
+                <VBox id="regionSixId" fx:id="regionNineId" styleClass="region-background-yellow"
+                      onMouseClicked="#regionNineOnMouseClicked" prefWidth="160" prefHeight="160">
+                    <ImageView id="regionNineImageViewId" fx:id="regionNineImageViewId"/>
+                </VBox>
+            </HBox>
+        </VBox>
+    </children>
+</AnchorPane>
